@@ -1,0 +1,120 @@
+/* === Landing screens === */
+@font-face {
+    font-family: 'konnect';
+	src: url('fonts/Regular.eot');
+    src: url('fonts/Regular.eot?#iefix') format('embedded-opentype'),
+	src: url('fonts/konnectregular.ttf')format('truetype'),
+    src: url('fonts/regular-webfont.woff2') format('woff2'),
+         url('fonts/regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: "konnect" !important;
+  }
+
+
+.landing{
+	color: #212529;
+	height: 85vh;
+	/* background: -moz-linear-gradient( 90deg, rgb(247,247,38) 0%, rgb(3,83,146) 100%);
+	background: -webkit-linear-gradient( 90deg, rgb(247,247,38) 0%, rgb(3,83,146) 100%);
+	background: -ms-linear-gradient( 90deg, rgb(247,247,38) 0%, rgb(3,83,146) 100%); */
+	background-image:url("bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	object-fit: cover;			
+	font-family:"konnect";
+}
+
+.des_txt{
+	color: #ffffff;
+	margin-bottom: 20px;
+	padding: 5px;
+	text-align:center;
+}
+
+.des_txt_style{
+	font-size: 18px;
+    color: #ffffff;
+    line-height: 28px;
+	font-family:"konnect";
+}
+.store_icon {
+    max-width: 150px;
+    display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.demo_icon {
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+}
+.landing_logo {
+    text-align: center;
+    max-width: 100%;
+    margin: 15px 15px;
+}
+
+.landing_logo img {
+    max-height: 70px;
+    
+}
+.landing-footer {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.landing-footer li:last-child {
+	border-right: none;
+}
+
+.landing-footer li {
+    margin-right: 10px;
+    line-height: 1;
+    padding-right: 10px;
+    border-right: 1px solid #212529;
+}
+
+.landing-footer li a {
+    font-size: 13px;
+    color:#212529;
+}
+.help{
+	color: #212529;
+	background: #8e64ec;
+}
+.help_wap{
+	margin: 20px;
+	
+}
+.help_txt{
+	background:#ffffff;
+	color: #212529;
+	min-height: 420px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.help_txt_style{
+	 font-size: 14px;
+}
+.help_h1{
+	font-family:"konnect"; 
+	font-size: 30px;
+	padding-bottom:10px;
+	
+}
+
+
+@media only screen and (max-width: 990px) {
+	.help_wap{
+	margin-left: 25px !important;
+	
+}
+
+}
